@@ -1,0 +1,28 @@
+1. Write a blog on difference between document and window objects
+
+Answer:
+
+DOCUMENT OBJECTS:
+
+* The document object is our html, aspx, php, or other document that will be loaded into the browser. The document actually gets loaded inside the window object.
+
+* It has properties available to it like title, URL, cookie, etc. 
+
+* All the tags, elements with attributes in HTML are part of the document.
+
+* If we want to access a property for the document it is window.document.property which is also available in short as document.property.
+
+* example: document.getElementById(), document.getElementByTagName(), document.createElement(), document.querySelector() and many more
+
+
+WINDOW OBJECTS:
+
+* The window is the first thing that gets loaded into the browser.
+
+* This window object has the majority of the properties like length, innerWidth, innerHeight, name, if it has been closed, its parents, and more.
+
+* Global objects, functions, and variables of JavaScript are members of the window object.
+
+* If we want to access a property for the window it is window.property
+
+* example: alert(), confirm() are methods defined on the window object.
